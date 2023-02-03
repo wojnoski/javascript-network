@@ -58,11 +58,11 @@ function playGame(playerInput){
 }
 
 document.getElementById('play-rock').addEventListener('click', function(){
-  printMessage('Zagrałeś kamień');
+  playGame(1);
 });
 document.getElementById('play-paper').addEventListener('click', function(){
-  printMessage('Zagrałeś papier');
+  playGame(2);
 });
 document.getElementById('play-scissors').addEventListener('click', function(){
-  printMessage('Zagrałeś nożyce');
+  playGame(3);
 });
