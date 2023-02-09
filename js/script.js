@@ -57,7 +57,7 @@
 
     displayResult(computerMove, playerMove);
   }
-  let Rock = document.getElementById('play-rock'),
+  const Rock = document.getElementById('play-rock'),
     Paper = document.getElementById('play-paper'),
     Scissors = document.getElementById('play-scissors');
   Rock.addEventListener('click', function(){
